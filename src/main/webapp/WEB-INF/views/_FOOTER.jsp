@@ -1,1 +1,3 @@
-Copyright 2016 - quicotte@gmail.com
+<div class="footer">
+    Copyright 2016 - SopraSteria Groupe
+</div>

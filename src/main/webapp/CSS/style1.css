@@ -4,7 +4,7 @@
     right: 0px;
 }
 
-.content, .menu, .footer {
+.content, .menu {
     text-align: center;
     width: 80%;
     margin-left: auto;
@@ -15,3 +15,119 @@
     border-radius: 15px;
     background-color: lightblue;
 }
+
+.footer{
+    left: 0px;
+    bottom: 0px;
+    position: fixed;
+    color: white;
+/*    margin-left: auto;
+    margin-right: auto;*/
+}
+
+.menu{
+    background-color: darkmagenta;
+}
+
+
+/*////////////////////////////////////////////////*/
+
+table{
+    text-align: center;
+}
+img{
+    height: 25px;
+}
+
+.ligne1{
+    background-color: #2a4735
+}
+
+.boutonaccueil{
+    width: 100px;
+    height: 100px;
+}
+
+.corps{
+    background-color: #5a7163
+}
+
+.tablegauche{
+    border-style: solid;
+    width: 250px;
+    background-color: #b9e4ba;
+    border-color: green;
+    vertical-align:top;
+}
+
+.tabledroite{
+    border-style: solid;
+    width: 250px;
+    border-color: green;
+    background-color: #b9e4ba;
+    vertical-align:top;
+}
+
+.tableCelluleCentre{
+    border-style: solid;
+   
+}
+
+.tableMilieu{
+    border-style: solid;
+    background-color: #7dbaab;
+    border-color: green;
+    border-color: #145344;
+    width: 1050px;
+    vertical-align: top;
+    /*padding-left: 23%;*/
+    opacity: 0.7;
+    border-radius: 10pt;
+    
+}
+
+.coeur{
+    width: 15px;
+    height: 15px;
+       
+}
+
+td{
+    padding: auto auto auto auto
+       
+}
+
+body{
+    background-image: url(../Images/jungle2.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+    font-family: calibri;
+}
+
+
+.titre{
+    font-size: 30px;
+    /*text-align: center;*/
+    font-family: calibri;
+}
+
+.vertical{
+    vertical-align: top;
+}
+
+.tableaucentrale{
+    width: 1050px;
+/*    margin-left: auto;
+    margin-right: auto;*/
+}
+
+h1{
+    text-align: center;
+}
+.centrertableau{
+    /*text-align: center;*/
+    padding: 0;
+    /*margin: 10px auto auto auto;*/
+        
+}
+    

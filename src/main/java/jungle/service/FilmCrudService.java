@@ -3,15 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package streaming.service;
+package jungle.service;
 
 import org.springframework.data.repository.CrudRepository;
-import streaming.entity.Genre;
+import jungle.entity.Film;
 
 /**
  *
  * @author tom
  */
-public interface GenreCrudService extends CrudRepository<Genre, Long>{
+public interface FilmCrudService extends CrudRepository<Film, Long>{
     
 }

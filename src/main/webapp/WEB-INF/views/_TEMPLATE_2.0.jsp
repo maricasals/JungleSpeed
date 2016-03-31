@@ -36,28 +36,32 @@
                 });
             }
 
+            function ajouterFilm() {
+                $('.content').load(urlAppli + '/film/ajouter', $('form').serialize());
+            }
 
+//            function ajouterFilm(){
+//                $.post( urlAppli + '/film/ajouter', $('form').serialize() ,function(data){
+//                    
+//                    chargeContenu('/film/lister');
+//                });
+//            }
+
+            function ajouterGenre() {
+                $.post(urlAppli + '/genre/ajouter', $('form').serialize(), function (data) {
+
+                    $('.content').html(data);
+                });
+            }
 
             function chargeContenu(route) {
 
                 $(".content").load(urlAppli + route);
             }
 
-            function effaceContenu() {
-
-                $(".content").remove();
-            }
-
-            function ajoutJoueur(idPartie) {
-                $.post('rejoindre/'+idPartie, $('#formInscription').serialize(), function retourner(data){
-                    $(".content").html(data);
-                });
-            }
-
-
         </script>
     </head>
-    <body onload="onLoad();" class="body">
+    <body onload="onLoad();">
         <div class="sablier">
             <img src="<c:url value="/Images/sablier.gif"/>" alt=""/>
         </div>
